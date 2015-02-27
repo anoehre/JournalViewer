@@ -1,0 +1,28 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+hermesApp/.idea/workspace.xml
+hermesApp/.idea/tasks.xml
+hermesApp/.idea/dictionaries
+hermesApp/.idea/inspectionProfiles
+hermesApp/platforms/
+hermesApp/plugins/
+node_modules/
+hermesApp/www/lib/
+*.log
+
+#################
+## Visual Studio
+#################
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+Build/
+/hermesApp/dist
+/hermesApp/docs
+/hermesApp/www
